@@ -29,7 +29,7 @@ namespace LanguageFlashCards.Core.ViewModels {
     }
 
     public class HiraganaChildViewModel : MvxViewModel {
-        private string hiraganaTest = "Arrived at Hiragana tab";
+        private string hiraganaTest = @"Arrived at Hiragana tab";
         public string HiraganaTest {
             get { return hiraganaTest; }
             set { hiraganaTest = value; RaisePropertyChanged(() => HiraganaTest); }
@@ -37,7 +37,7 @@ namespace LanguageFlashCards.Core.ViewModels {
     }
 
     public class KatakanaChildViewModel : MvxViewModel {
-        private string katakanaTest = "Arrived at Katakana tab";
+        private string katakanaTest = @"Arrived at Katakana tab";
         public string KatakanaTest {
             get { return katakanaTest; }
             set { katakanaTest = value; RaisePropertyChanged(() => KatakanaTest); }
@@ -45,7 +45,7 @@ namespace LanguageFlashCards.Core.ViewModels {
     }
 
     public class KanjiChildViewModel : MvxViewModel {
-        private string kanjiTest = "Arrived at Hiragana tab";
+        private string kanjiTest = @"Arrived at Hiragana tab";
         public string KanjiTest {
             get { return kanjiTest; }
             set { kanjiTest = value; RaisePropertyChanged(() => KanjiTest); }

@@ -38,7 +38,7 @@ namespace LanguageFlashCards.Android.Views {
     }
 
     [Activity(Label = "View for HiraganaViewModel")]
-    public class HiraganaChildView : MvxTabActivity {
+    public class HiraganaChildView : MvxActivity {
         protected override void OnCreate(Bundle bundle) {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.HiraganaChildView);
@@ -46,7 +46,7 @@ namespace LanguageFlashCards.Android.Views {
     }
 
     [Activity(Label = "View for KatakanaViewModel")]
-    public class KatakanaChildView : MvxTabActivity {
+    public class KatakanaChildView : MvxActivity {
         protected override void OnCreate(Bundle bundle) {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.KatakanaChildView);
@@ -54,7 +54,7 @@ namespace LanguageFlashCards.Android.Views {
     }
 
     [Activity(Label = "View for KanjiViewModel")]
-    public class KanjiChildView : MvxTabActivity {
+    public class KanjiChildView : MvxActivity {
         protected override void OnCreate(Bundle bundle) {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.KanjiChildView);
