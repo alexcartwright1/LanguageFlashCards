@@ -5,7 +5,7 @@ using MvvmCross.Droid.Views;
 namespace LanguageFlashCards.Android
 {
     [Activity(
-        Label = "LanguageFlashCards.Android"
+        Label = "Language Flash Cards"
         , MainLauncher = true
         , Theme = "@style/Theme.Splash"
         , NoHistory = true

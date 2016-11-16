@@ -7,7 +7,9 @@ using MvvmCross.Droid.Views;
 
 namespace LanguageFlashCards.Android.Views {
     [Activity(Label = "View for FirstViewModel")]
+#pragma warning disable CS0618 // Type or member is obsolete
     public class FirstView : MvxTabActivity {
+#pragma warning restore CS0618 // Type or member is obsolete
         protected FirstViewModel FirstViewModel {
             get { return base.ViewModel as FirstViewModel; }
         }
@@ -18,7 +20,6 @@ namespace LanguageFlashCards.Android.Views {
             SetContentView(Resource.Layout.FirstView);
 
             TabHost.TabSpec spec;
-            Intent intent;
 
             spec = TabHost.NewTabSpec("hiraganaChild");
             spec.SetIndicator("Hiragana");
