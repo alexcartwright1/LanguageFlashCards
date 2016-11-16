@@ -7,7 +7,6 @@ namespace LanguageFlashCards.Android
     [Activity(
         Label = "LanguageFlashCards.Android"
         , MainLauncher = true
-        , Icon = "@mipmap/icon"
         , Theme = "@style/Theme.Splash"
         , NoHistory = true
         , ScreenOrientation = ScreenOrientation.Portrait)]
